@@ -78,7 +78,7 @@ This section illustrates how many words were necessary for the model to correctl
 
 @st.cache_data
 def load_result_data():
-    return pd.read_csv('../data/result_rows.csv')
+    return pd.read_csv('data/result_rows.csv')
 
 result_rows = load_result_data()
 
