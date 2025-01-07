@@ -1,6 +1,14 @@
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import re
+
+
+# Check if the 'stopwords' resource is available; download it if not
+try:
+    stopwords.words("english")
+except LookupError:
+    nltk.download("stopwords")
 
 #text preprocessing
 ps = PorterStemmer()
