@@ -1,6 +1,4 @@
 tensorflow==2.12.0
-#numpy==1.23.2  # Utilise cette version si tu utilises Python 3.11
-# numpy==1.21.0  # Utilise cette version si tu utilises Python 3.10
 pandas==1.5.3
 nltk==3.9.1
 scikit-learn
