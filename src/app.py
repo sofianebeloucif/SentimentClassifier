@@ -4,7 +4,7 @@ import pickle
 import tensorflow as tf
 
 import pandas as pd
-from preprocess import preprocess
+from preprocess import *
 
 # =============================
 # Page Configuration
