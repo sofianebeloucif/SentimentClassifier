@@ -33,9 +33,9 @@ st.markdown("---")
 # =============================
 @st.cache_resource
 def load_resources():
-    encoder = pickle.load(open('../utils/encoder.pkl', 'rb'))
-    cv = pickle.load(open('../utils/CountVectorizer.pkl', 'rb'))
-    model = tf.keras.models.load_model('/models/naive_model.h5')
+    encoder = pickle.load(open('utils/encoder.pkl', 'rb'))
+    cv = pickle.load(open('utils/CountVectorizer.pkl', 'rb'))
+    model = tf.keras.models.load_model('src/models/naive_model.h5')
     return encoder, cv, model
 
 encoder, cv, model = load_resources()
